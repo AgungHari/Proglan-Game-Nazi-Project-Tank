@@ -4,6 +4,8 @@ Tugas Mata Kuliah Pemrograman Lanjut (2020)
 
 Program permainan yang menggunakan pustaka SFML (Simple and Fast Multimedia Library) untuk grafis dan audio.
 
+untuk lebih detail dapat dilihat pada laporan
+
 ## Komponen Utama:
 
 Header Files: 
