@@ -6,6 +6,8 @@ Program permainan yang menggunakan pustaka SFML (Simple and Fast Multimedia Libr
 
 untuk lebih detail dapat dilihat pada laporan
 
+https://youtu.be/Q9eFCcpZfP0
+
 ## Komponen Utama:
 
 Header Files: 
