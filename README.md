@@ -8,7 +8,7 @@ Program permainan yang menggunakan pustaka SFML (Simple and Fast Multimedia Libr
 
 Header Files: 
 - #include <SFML/Graphics.hpp>: Untuk grafis.
-- #include <SFML/Window.hpp>: Untuk manajemen jendela.
+- #include <SFML/Window.hpp>: kanvas/jendela permainan.
 - #include <SFML/Audio.hpp>: Untuk audio.
 - #include <iostream>: Untuk input/output standar.
 - #include <Windows.h>: Untuk fungsi Windows.
@@ -24,7 +24,7 @@ Konstanta dan Variabel Global:
 
 Bagian Program:
 - Menu dan Tutorial: Membuat jendela untuk menu utama dan tutorial dengan menggunakan gambar latar belakang dan musik.
-- Game Window: Menyediakan jendela utama permainan dengan ukuran 1600x900 piksel.
+- Game Window: Menyediakan kanvas/jendela utama permainan dengan ukuran 1600x900 piksel.
 - Elemen Grafis dan Audio: Mengatur berbagai elemen grafis seperti latar belakang, tank, rudal, dan airdrop. Juga memuat berbagai file audio untuk efek suara dan musik latar.
 - Logika Permainan: Mengontrol pergerakan tank menghindari peluru dari lawan.
 - Pengendalian Input: Mengatur pergerakan tank dengan menggunakan input keyboard (W, A, S, D untuk tank 1 dan tombol arrowkey untuk tank 2).
