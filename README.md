@@ -6,7 +6,7 @@ Program permainan yang menggunakan pustaka SFML (Simple and Fast Multimedia Libr
 
 ## Komponen Utama:
 
-###Header Files: 
+Header Files: 
 - #include <SFML/Graphics.hpp>: Untuk grafis.
 - #include <SFML/Window.hpp>: Untuk manajemen jendela.
 - #include <SFML/Audio.hpp>: Untuk audio.
@@ -15,14 +15,14 @@ Program permainan yang menggunakan pustaka SFML (Simple and Fast Multimedia Libr
 - #include <vector>: Untuk penggunaan vektor.
 - #include <math.h>: Untuk fungsi matematika.
 
-###Konstanta dan Variabel Global:
+Konstanta dan Variabel Global:
 - bKiri, bKanan: Batas kiri dan kanan untuk posisi objek.
 - rSpeed, airspeed: Kecepatan rudal dan kecepatan udara.
 - scoreTank1, scoreTank2, scoreHitler: Skor awal untuk dua pemain dan target.
 - screenx, screeny: Ukuran layar.
 - tank1x, tank1y, tank2x, tank2y: Posisi awal tank.
 
-###Bagian Program:
+Bagian Program:
 - Menu dan Tutorial: Membuat jendela untuk menu utama dan tutorial dengan menggunakan gambar latar belakang dan musik.
 - Game Window: Menyediakan jendela utama permainan dengan ukuran 1600x900 piksel.
 - Elemen Grafis dan Audio: Mengatur berbagai elemen grafis seperti latar belakang, tank, rudal, dan airdrop. Juga memuat berbagai file audio untuk efek suara dan musik latar.
