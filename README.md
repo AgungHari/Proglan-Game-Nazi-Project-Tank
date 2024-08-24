@@ -8,6 +8,17 @@ untuk lebih detail dapat dilihat pada laporan
 
 https://youtu.be/Q9eFCcpZfP0
 
+
+![image](https://github.com/user-attachments/assets/9960f9bc-c928-4664-a7ba-a990be4d6670)
+
+![image](https://github.com/user-attachments/assets/a58e031e-5889-4d11-a3fb-cb81e3a52d27)
+
+![image](https://github.com/user-attachments/assets/86c70364-e814-436a-a14d-884d1bb8c65c)
+
+![image](https://github.com/user-attachments/assets/febde066-d300-4901-8b5b-050980ff1918)
+
+
+
 ## Komponen Utama:
 
 Header Files: 
