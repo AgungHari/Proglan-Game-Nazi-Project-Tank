@@ -1,27 +1,16 @@
-# Proglan-NAZI-PROJECT-TANK-
 
-Tugas Mata Kuliah Pemrograman Lanjut (2020)
+# Proglan NAZI PROJECT TANK
 
-Program permainan yang menggunakan pustaka SFML (Simple and Fast Multimedia Library) untuk grafis dan audio.
+🚀Assignment for Advanced Programming Course (2020) a game program that uses the SFML (Simple and Fast Multimedia Library) for graphics and audio. For more details, refer to the report.
 
-untuk lebih detail dapat dilihat pada laporan
+## Demo
 
-https://youtu.be/Q9eFCcpZfP0
-
-
-![image](https://github.com/user-attachments/assets/9960f9bc-c928-4664-a7ba-a990be4d6670)
-
-![image](https://github.com/user-attachments/assets/a58e031e-5889-4d11-a3fb-cb81e3a52d27)
-
-![image](https://github.com/user-attachments/assets/86c70364-e814-436a-a14d-884d1bb8c65c)
-
-![image](https://github.com/user-attachments/assets/febde066-d300-4901-8b5b-050980ff1918)
+![kons](https://github.com/user-attachments/assets/cc4f8750-7056-44e3-a733-00a5cefd8019)
 
 
+## Header Files: 
 
-## Komponen Utama:
-
-Header Files: 
+```bash
 - #include <SFML/Graphics.hpp>: Untuk grafis.
 - #include <SFML/Window.hpp>: kanvas/jendela permainan.
 - #include <SFML/Audio.hpp>: Untuk audio.
@@ -29,23 +18,24 @@ Header Files:
 - #include <Windows.h>: Untuk fungsi Windows.
 - #include <vector>: Untuk penggunaan vektor.
 - #include <math.h>: Untuk fungsi matematika.
+```
+    
+## Features
 
-Konstanta dan Variabel Global:
-- bKiri, bKanan: Batas kiri dan kanan untuk posisi objek.
-- rSpeed, airspeed: Kecepatan rudal dan kecepatan udara.
-- scoreTank1, scoreTank2, scoreHitler: Skor awal untuk dua pemain dan target.
-- screenx, screeny: Ukuran layar.
-- tank1x, tank1y, tank2x, tank2y: Posisi awal tank.
+- Menu and Tutorial: Displays the main menu, tutorial, and score with background music and images.
+- Game Window: Provides graphic displays for the game, including tanks, missiles, and airdrops.
+- Audio: Plays sound effects for shooting, collisions, and background music.
+- Game Controls: Manages the movement of tanks, bullets, and collision logic to determine the score.
 
-Bagian Program:
-- Menu dan Tutorial: Membuat jendela untuk menu utama dan tutorial dengan menggunakan gambar latar belakang dan musik.
-- Game Window: Menyediakan kanvas/jendela utama permainan dengan ukuran 1600x900 piksel.
-- Elemen Grafis dan Audio: Mengatur berbagai elemen grafis seperti latar belakang, tank, rudal, dan airdrop. Juga memuat berbagai file audio untuk efek suara dan musik latar.
-- Logika Permainan: Mengontrol pergerakan tank menghindari peluru dari lawan.
-- Pengendalian Input: Mengatur pergerakan tank dengan menggunakan input keyboard (W, A, S, D untuk tank 1 dan tombol arrowkey untuk tank 2).
+## Constants and Global Variables
 
-###Fungsionalitas Kunci:
-- Menu dan Tutorial: Menampilkan menu awal, tutorial, dan skor dengan musik latar dan gambar.
-- Jendela Permainan: Menyediakan tampilan grafis untuk permainan, termasuk tank, rudal, dan airdrop.
-- Audio: Memutar efek suara untuk tembakan, tabrakan, dan musik latar.
-- Kontrol Permainan: Mengatur gerakan tank, peluru, dan logika tabrakan untuk menentukan skor.
+- bKiri, bKanan: Left and right boundaries for object positions.
+- rSpeed, airspeed: Missile speed and airspeed.
+- scoreTank1, scoreTank2, scoreHitler: Initial scores for two players and the target.
+- screenx, screeny: Screen size.
+- tank1x, tank1y, tank2x, tank2y: Initial positions of the tanks.
+
+## Authors
+
+- [@AgungHari](https://www.github.com/AgungHari)
+
